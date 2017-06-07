@@ -35,7 +35,9 @@ gem 'jbuilder', '~> 2.5'
 # ADDED BY ME
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
-gem "paperclip", "~> 5.0.0"
+gem 'paperclip', '~> 5.0.0'
+gem 'paperclip-cloudinary'
+gem 'figaro'
 
 group :production do
   gem 'pg'

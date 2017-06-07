@@ -1,0 +1,18 @@
+development:
+  cloud_name: dgf8hkuhc
+  api_key: '778372597566882'
+  api_secret: <%= ENV["API_SECRET"] %>
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dgf8hkuhc
+  api_key: '778372597566882'
+  api_secret: <%= ENV["API_SECRET"] %>
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dgf8hkuhc
+  api_key: '778372597566882'
+  api_secret: <%= ENV["API_SECRET"] %>
+  enhance_image_tag: true
+  static_image_support: false
