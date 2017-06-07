@@ -24,3 +24,6 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# ignore localhost files
+/public/system
