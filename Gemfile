@@ -38,6 +38,8 @@ gem 'jquery-rails'
 gem 'paperclip', '~> 5.0.0'
 gem 'paperclip-cloudinary'
 gem 'figaro'
+gem 'devise'
+gem 'bcrypt', '3.1.11', platforms: :ruby
 
 group :production do
   gem 'pg'
