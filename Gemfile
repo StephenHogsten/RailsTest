@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rubygems.org'
 ruby "2.3.3"
 
 git_source(:github) do |repo_name|
@@ -40,6 +41,7 @@ gem 'paperclip-cloudinary'
 gem 'figaro'
 gem 'devise'
 gem 'bcrypt', '3.1.11', platforms: :ruby
+gem 'stripe'
 
 group :production do
   gem 'pg'
