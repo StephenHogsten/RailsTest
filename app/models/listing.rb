@@ -1,9 +1,9 @@
 class Listing < ApplicationRecord
   if Rails.env.development?
-    has_attached_file :image, styles: { medium: "200x", thumb: "100x100>" }, default_url: "missing.jpg", 
+    has_attached_file :image, styles: { medium: "200x", thumb: "100x100>" }, default_url: "http://res.cloudinary.com/dgf8hkuhc/image/upload/v1496863785/missing_ls4ayk.jpg", 
       validate_media_type: false
   else
-    has_attached_file :image, styles: { medium: "200x", thumb: "100x100>" }, default_url: "missing_ls4ayk.jpg", 
+    has_attached_file :image, styles: { medium: "200x", thumb: "100x100>" }, default_url: "http://res.cloudinary.com/dgf8hkuhc/image/upload/v1496863785/missing_ls4ayk.jpg", 
       validate_media_type: false,
       :storage => :cloudinary,
       :cloudinary_credentials => Rails.root.join("config/cloudinary.yml"),
